@@ -8,8 +8,47 @@ body {
 
 /*EMPLOYMENT*/
 
+/*NAV*/
 
 
+#homeul {
+    list-style-type: none;
+    margin: 0 auto;
+    
+    overflow: hidden;
+    background-color: #67BCDB;
+    border: 2px solid #E44424;
+    display: block;
+    font-style: futura;
+}
+
+li.li {
+    
+    display: inline-block;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+li a:hover {
+    background-color: black;
+}
+
+p {
+	font-size: 1.5em;
+	font-style: futura;
+}
+
+
+/*NAV*/
 
 #headCareers {
 	text-align: center;
@@ -123,35 +162,43 @@ font-size: 30px;
 
 
 #body {
-	background-color:#00cc44;
+	background-color:#ECECEA;;
 	font-style: futura;
 	text-align: center;
 	margin-top: 0;
 	border: 2px solid black;
+	;
 }
 
 #homehead {
-	background-color: #66ff66;
+	background-color: #A2AB58;
 	font-size: 3em;
 	text-align: center;
 	margin: 0 auto;
 	border: 1px solid black;
 	font-style: futura;
+	padding-bottom: 10px;
+	text-shadow: -1px 0 #E44424, 0 1px #E44424, 1px 0 #E44424, 0 -1px #E44424;
+	color: orange;
 }
 
 #homeul {
     list-style-type: none;
-    margin: 0;
-    padding: 2px;
+    margin: 0 auto;
+    
     overflow: hidden;
-    background-color: #333;
-    border: 2px solid blue;
+    background-color: #67BCDB;
+    border: 2px solid #E44424;
     display: block;
     font-style: futura;
 }
 
 li.li {
-    float: left;
+    
+    display: inline-block;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
 }
 
 li a{
@@ -174,22 +221,26 @@ p {
 
 #special {
 	font-weight: bolder;
-	border: 2px solid blue;
-	display: inline;
+	font-size: 30px;
 	padding: 0px 1px;
 	font-style: futura;
+	
+	
 
 }
 #img_one{
-	border: 2px solid blue;
+	border: 2px solid #67BCDB ;
 	display: inline;
+	width: 100%;
+	max-height: 100%;
 }
 
-#img_two{
-	border: 2px solid blue;
-	display: inline;
-}
 
+
+footer {
+	margin: 0 auto;
+
+}
 
 
 /*HISTORY/ABOUT*/
@@ -197,11 +248,27 @@ p {
 
 
 
-
-
 /*Products*/
+.salamander-pics {
+	width: 400px;
+	height: 300px;
+}
 
+.all {
 
+	float: left;
+	margin: 15px ;
+	width: 310px;
+	position: relative;
+	
+
+}
+
+.type {
+	border: 3px solid black;
+	padding: 40px;
+	display: inline-block;
+}
 
 
 
