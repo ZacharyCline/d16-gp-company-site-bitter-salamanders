@@ -1,0 +1,67 @@
+#body {
+	background-color:#00cc44;
+	font-style: futura;
+	text-align: center;
+	margin-top: 0;
+	border: 2px solid black;
+}
+
+#homehead {
+	background-color: #66ff66;
+	font-size: 3em;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid black;
+	font-style: futura;
+}
+
+#homeul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #333;
+    border: 2px solid blue;
+    display: block;
+    font-style: futura;
+}
+
+li.li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+li a:hover {
+    background-color: black;
+}
+
+p {
+	font-size: 1.5em;
+	font-style: futura;
+}
+
+
+#special {
+	font-weight: bolder;
+	border: 2px solid blue;
+	display: inline;
+	padding: 0px 1px;
+	font-style: futura;
+
+}
+#img_one{
+	border: 2px solid blue;
+	display: inline;
+}
+
+#img_two{
+	border: 2px solid blue;
+	display: inline;
+}
