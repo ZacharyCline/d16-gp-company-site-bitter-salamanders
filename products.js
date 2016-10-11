@@ -31,7 +31,7 @@ var products = [
 		"type": "Northern Zigzag Salamanders",
 		"length": "about 11 cm.",
 		"appearance": "zigzagging stripe down its back which is either red or yellow, orange markings around the base of its legs",
-		"habitat": "damp, rocky forests and around cave entrances",
+		"habitat": "damp, rocky forests and around cave entrances", 
 		"price": "$45"
 	},
 	{
@@ -45,7 +45,7 @@ var products = [
 
 for (var i=0; i<products.length; i++){
 	var currentProduct = products[i];
-	var type = "<h2>" + currentProduct.type + "</h2>";
+	var type = "<h2 class='type'>" + currentProduct.type + "</h2>";
 	var appearance = "<h4>" + "Appearance: " + "</h4>" + "<p>" + currentProduct.appearance + "</p>";
 	var length = "<p>" + "Length: " + currentProduct.length + "</p>";
 	var habitat = "<p>" + "Natural Habitat: " + currentProduct.habitat + "</p>";
@@ -53,7 +53,7 @@ for (var i=0; i<products.length; i++){
 
 	var outputDiv = document.getElementById("productsOutput");
 
-	outputDiv.innerHTML += type + appearance + length + habitat + price;
+	outputDiv.innerHTML += "<div class='all'>" + type + appearance + length + habitat + price + "</div>";
 }
 
 
