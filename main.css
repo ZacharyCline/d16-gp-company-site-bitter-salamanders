@@ -249,6 +249,10 @@ footer {
 
 
 /*Products*/
+.salamander-pics {
+	width: 400px;
+	height: 300px;
+}
 
 .all {
 
@@ -260,11 +264,11 @@ footer {
 
 }
 
-
 .type {
 	border: 3px solid black;
 	padding: 40px;
 	display: inline-block;
 }
+
 
 
