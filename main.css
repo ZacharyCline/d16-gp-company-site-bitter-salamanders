@@ -12,7 +12,7 @@ body {
 #homeul {
     list-style-type: none;
     margin: 0 auto;
-    
+    text-align: center;
     overflow: hidden;
     background-color: #67BCDB;
     border: 2px solid #E44424;
@@ -273,6 +273,7 @@ aside {
 	width: 23.85%;
 }
 
+#homeHead
 /*Products*/
 
 
