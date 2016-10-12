@@ -250,7 +250,7 @@ footer {
 
 /*Products*/
 .salamander-pics {
-	width: 400px;
+	width: 300px;
 	height: 300px;
 }
 
@@ -270,5 +270,7 @@ footer {
 	display: inline-block;
 }
 
-
+#copyright {
+	display: block;
+}
 
